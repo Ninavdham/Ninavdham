@@ -40,6 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Start 
+![start_keane](https://github.com/Ninavdham/Ninavdham/assets/143937270/7c969754-a8fd-446c-abc8-0ddd572ca3dd)
   <img src="readme-images/start_keane.png" width="375px" alt="De startpagina die de nieuwste uitgaves laat 
   zien, via hier kun je naar de home pagina of direct naar de shop.">
 
