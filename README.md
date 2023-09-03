@@ -39,14 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.keanemusic.com/home/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Start ![start_keane](https://github.com/Ninavdham/Ninavdham/assets/143937270/f021ba8d-f127-4b2d-9c48-c7b3127403eb)
-
+  Start 
   <img src="readme-images/start_keane.png" width="375px" alt="De startpagina die de nieuwste uitgaves laat 
   zien, via hier kun je naar de home pagina of direct naar de shop.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Home pagina  ![homepage_keane](https://github.com/Ninavdham/Ninavdham/assets/143937270/560d230e-0f03-4e57-932d-563b545a7bc0)
-
+  Home pagina  
  <img src="readme-images/homepage_keane.png" width="375px" alt="De home pagina waarbinnen je de rest van de 
  content kunt vinden.">
 </details>
