@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://oasisinet.com
+  https://oasisnet.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Start 
@@ -69,7 +69,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown_schets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -89,7 +89,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Tijdens deze eerste week ging ik meteen goed van start, de eerste basis van de website leggen ging me goed af, maar toen ik bij het de grid en flexbox kwam ging het wat moeilijker, hier is wat extra inspanning en hulp bij nodig. Deze week liep ik tegen het probleem aan van een update van de website, met behulp van de wayback machine heb ik de originele website teruggevonden.
+  <img src="readme-images/waybackmachine.png" width="375px" alt="Foto van de originele website">
 
 
   ### Agenda voor meeting
@@ -105,16 +106,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Bij de feedback van donderdag 14/09 ging het over de code van de header en hierbij kreeg ik de tip om gebruik te maken van backgrounds, zodat je beeld krijgt van de ruimte die de verschillende onderdelen innemen, zodat je duidelijk ziet waar de onderdelen zijn en hoeveel ruimte het inneemt. ik heb hier nog even mee gestruggled, maar het is vandaag eindelijk gelukt om het menu correct te plaatsen.
 
 </details>
-
-
-
-
 
 ## Voortgang 2 (week 3)
 
@@ -122,7 +116,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  In de main maak ik gebruik van grid, maar ik merk dat ik het lastig vind om te duiden welke ruimte het 
+  moet innemen, wat de afmetingen van de grid moet zijn.
+  
+  20/09 Ik had verder geexperimenteerd met de grid, maar toen ik het weg commande viel het me op dat er niks 
+  veranderde in de code, het lukt dus nog niet om de grid te definieren. Na verdieping in de code met behulp 
+  van inspecteren kwam ik erachter dat de code overschreven was waardoor het nog onder flex viel, door de code die is gebruikt voor de header.
 
 
   ### Agenda voor meeting
@@ -136,7 +135,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Ik kreeg feedback/hulp bij de grid die ik had gebruikt, die niet juist was. Hierbij werdt het duidelijk dat de manier waarop de html was ingedeeld in de weg zit voor de werking van de grid en ook dingen in de css die in de weg zitten. Dit heeft gezorgd voor helderheid.
 
   - punt 1
   - punt 2
@@ -212,7 +211,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Voor het uiteindelijke eindresultaat ga ik de website responsive maken voor de telefoon; ik voeg een hamburger menu toe en de items komen onder elkaar. Hiernaast kies ik voor de surface plane.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
