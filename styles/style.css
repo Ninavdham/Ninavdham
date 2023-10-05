@@ -5,11 +5,6 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -18,14 +13,386 @@
 	--color-text:#111;
 	--color-background:#eee;
 }
-
-
-
-
+body{
+	padding: 0;
+}
 
 /****************/
-/* JOUW STYLING */
+/* HEADER */
 /****************/
+header{
+	width:auto;
+	height: 5em;
+	color: var(--color-text);
+
+}
+
+header img{
+	display: flex;
+	justify-content: flex-start;
+	width: 6em;
+	float: left;
+	align-self: center;
+}
+
+nav{
+	align-self: center;
+}
+
+header li{
+	display: flex;
+	list-style: none;
+	padding-left: none;
+	color: var(--color-text);
+    align-self: center;
+}
+
+header li a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: larger;
+	align-self: center;
+	text-decoration: none;
+	padding-left: none;
+	padding-right: 1em;
+}
+
+header li a img{
+	width: 2em;
+	margin-right: -.5em;
+}
+
+
+li:hover{
+	text-decoration: underline 2px;
+}
+
+header ul:first-of-type{
+display: flex;
+margin-left: auto;
+align-self: center;
+
+}
+
+header ul:nth-of-type(1){
+	display: flex;
+	justify-content: end;
+	align-self: center;
+}
+
+/* maandag 18/09 
+Bij de feedback van donderdag 14/09 ging het over de code van de header en hierbij kreeg ik de tip om gebruik te maken van backgrounds, zodat je beeld krijgt van de ruimte die de verschillende onderdelen innemen, zodat je duidelijk ziet waar de onderdelen zijn en hoeveel ruimte het inneemt. ik heb hier nog even mee gestruggled, maar het is vandaag eindelijk gelukt om het menu correct te plaatsen.*/
+
+/****************/
+/* MAIN */
+/****************/
+main{
+	text-align: center;
+	justify-items: center;
+}
+
+.beherenow{
+	width: 25em;
+}
+
+
+/*article ul{
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+	justify-items: center;
+	gap: 0;
+	padding-left: 0;
+  }  
+
+ article ul p{
+	 font-size: medium;
+	 text-align: center;
+ } 
+
+    article ul:first-of-type li{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+}
+
+article ul:nth-of-type(2) li{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+}
+
+article ul:nth-of-type(3) li{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+}
+  article ul:first-of-type li{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	gap: 0;
+	padding-right: 1em;
+}*/
+
+/* In de main maak ik gebruik van grid, maar ik merk dat ik het lastig vind om te duiden welke ruimte het moet innemen, wat de afmetingen van de grid moet zijn.*/
+
+/*20/09 Ik had verder geexperimenteerd met de grid, maar toen ik het weg commande viel het me op dat er niks veranderde in de code, het lukt dus nog niet om de grid te definieren. Na verdieping in de code met behulp van inspecteren kwam ik erachter dat de code overschreven was waardoor het nog onder flex viel, door de code die is gebruikt voor de header. */
+
+section{
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+    padding: 0;
+}
+
+section img{
+	width: 70%;
+	height: 70%;
+	object-fit: cover;
+	padding: 0;
+}
+
+section li{
+	text-decoration: none;
+	list-style: none;
+	padding-left: 0;
+}
+
+section article:first-of-type{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	text-align: center;
+	
+}
+
+section article:nth-of-type(2){
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	gap: 0;
+}
+
+section article:nth-of-type(3){
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	gap: 0;
+}
+
+section article:nth-of-type(4) {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+}
+
+section article:nth-of-type(5) {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+}
+
+section article:nth-of-type(6) {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+}
+
+section article:nth-of-type(7) {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 3;
+}
+
+section ul{
+	display: flex;
+}
+
+video{
+	width: 75em;
+	padding-top: 1em;
+}
+
+section.scroll-container{
+	overflow: auto;
+	white-space: nowrap;
+	padding: 1em;
+}
+
+section.scroll-container img{
+	padding: 1em;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: bold;
+	text-transform: uppercase;
+	padding-top: 0;
+	font-size:2.3em;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: bold;
+	font-size: 1.8em;
+}
+
+h2:nth-of-type(2){
+	font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: bold;
+	text-align: start;
+}
+
+h2:nth-of-type(3){
+	font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: larger;
+	font-weight:lighter;
+}
+
+p:nth-of-type(2) {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p:nth-of-type(3) {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:x-large;
+	font-weight: bold;
+}
+
+p:nth-of-type(5) {
+	font-family: Arial, Helvetica, sans-serif;
+	width:50em;
+	margin: auto;
+}
+
+a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:larger;
+	color: black;
+	text-decoration-thickness: 2px;
+}
+
+/****************/
+/* FOOTER */
+/****************/
+/*footer{
+	width: 100%;
+	background: rgb(0, 0, 0);
+	color: white;
+	display: flex;
+	padding: 2.5rem 3em 7.5rem 3em;
+}*/
+
+footer{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 1fr);
+	grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+	width: 100%;
+background: rgb(0, 0, 0);
+color: white;
+padding: 2.5rem 3em 7.5rem 3em;
+}
+
+.footer_img{
+	width: 100%;
+}
+
+footer ul li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+
+footer ul li img{
+	width: 2em;
+}
+
+footer a{
+	color: white;
+}
+
+.col-1{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+.col-1 ul{
+	display: flex;
+	font-size:larger;
+	padding-left: 0;
+}
+
+.col-1 ul:nth-of-type(3){
+	font-size: smaller;
+}
+
+.col-1 ul li{
+	margin-right: 1em;
+	padding-left: 0;
+}
+
+.col-1 p{
+	font-size: small;
+}
+
+.col-1 img{
+	width: 6em;
+}
+
+.col-2 ul{
+	display: flex;
+	padding-left: 0;
+}
+
+.col-2 h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:larger;
+}
+
+.col-2 ul img{
+	width: 3em;
+}
+
+.col-2 a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-decoration: none;
+}
+
+.col-1 img{
+	width: 6em;
+}
+
+.col-2{
+	grid-column-start: 3;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+/****************/
+/* THE STORY */
+/****************/
+
+
 
 /* jouw code */
 
